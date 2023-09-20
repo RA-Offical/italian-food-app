@@ -4,7 +4,7 @@ import { food_4, food_5, leave_2 } from "../../assets/images";
 
 const Hero = () => {
 	return (
-		<div className="h-screen bg-gradient-to-b from-red-50 to-white">
+		<div className="h-screen bg-gradient-to-b from-red-50 to-white overflow-hidden">
 			{/* Container component which will be grid for hero comonent content */}
 			<Container
 				classes={

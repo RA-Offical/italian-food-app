@@ -22,7 +22,7 @@ const Header = () => {
 					setIsNavVisible={setIsNavVisible}
 				/>
 
-				<div className="flex items-center gap-4">
+				<div className="flex items-center gap-4 ">
 					{/* Search Form component */}
 					<SearchForm classes={"hidden md:block"} />
 
