@@ -7,8 +7,12 @@ const Header = () => {
 	const [isNavVisible, setIsNavVisible] = useState(false);
 
 	return (
-		<header>
-			<Container classes={"py-4 flex items-center justify-between"}>
+		<header className="fixed left-0 right-0 top-0 z-10">
+			<Container
+				classes={
+					"py-4 flex items-center justify-between bg-white/5 backdrop-blur"
+				}
+			>
 				{/* Logo component */}
 				<Logo />
 
@@ -24,7 +28,7 @@ const Header = () => {
 
 					{/* menu icon shown at small devices */}
 					<button
-						className="text-dark hover:text-red transition-[color] duration-300 lg:hidden"
+						className="text-dark hover:text-red transition-[color] duration-300 lg:hidden backd"
 						onClick={(e) => {
 							setIsNavVisible(true);
 						}}

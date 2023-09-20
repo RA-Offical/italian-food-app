@@ -10,7 +10,9 @@ const Navigation = ({ isNavVisible, setIsNavVisible }) => {
 	return (
 		<div
 			className={`text-center fixed inset-0 bg-white z-10 p-4 lg:static lg:grow lg:p-0 transition-transform duration-300 ${
-				isNavVisible ? "translate-y-0" : "-translate-y-full"
+				isNavVisible
+					? "translate-y-0"
+					: "-translate-y-full lg:bg-transparent"
 			} lg:translate-y-0`}
 		>
 			<button

@@ -7,7 +7,7 @@ const SearchForm = ({ classes }) => {
 				<input
 					type="text"
 					placeholder="Search ..."
-					className="grow h-full pl-1 pr-2 focus:outline-none"
+					className="grow h-full pl-1 pr-2 bg-transparent focus:outline-none"
 				/>
 				<button className="w-9 h-9 bg-red rounded-md flex items-center justify-center">
 					<PiMagnifyingGlassBold className="text-2xl fill-white" />
