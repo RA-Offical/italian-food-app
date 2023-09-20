@@ -5,7 +5,7 @@ import { menuCardsData } from "../../data/menuCardsData";
 const Menu = () => {
 	return (
 		<section className="">
-			<Container classes={"py-6 md:py-8"}>
+			<Container classes={"py-24"}>
 				{/* header for menu */}
 				<SectionHeader
 					title={"Our Menu"}
