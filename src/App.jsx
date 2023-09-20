@@ -1,5 +1,11 @@
+import { Header } from "./components";
+
 function App() {
-	return <div className="app h-screen min-w-[370px]"></div>;
+	return (
+		<div className="min-h-screen min-w-[23.125rem] text-dark-100 text-lg">
+			<Header />
+		</div>
+	);
 }
 
 export default App;

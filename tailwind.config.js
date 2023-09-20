@@ -6,12 +6,19 @@ export default {
 		fontFamily: {
 			secondary: "'Abril Fatface', cursive",
 		},
+		container: {
+			center: true,
+			padding: {
+				DEFAULT: "1rem",
+				md: "2rem",
+				lg: "3rem",
+			},
+		},
 		extend: {
 			colors: {
 				dark: {
-					100: "#908F8F",
-					200: "#6B6A6A",
-					300: "#444444",
+					100: "#6B6A6A",
+					200: "#444444",
 					DEFAULT: "#000",
 				},
 				red: {
