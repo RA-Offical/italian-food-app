@@ -14,7 +14,11 @@ const Accordian = ({ clases, title, menus }) => {
 						setIsAccordianOpen(!isAccordianOpen);
 					}}
 				>
-					<FaChevronDown />
+					<FaChevronDown
+						className={`transition-transform ${
+							isAccordianOpen ? "rotate-180" : ""
+						}`}
+					/>
 				</button>
 			</header>
 			<div

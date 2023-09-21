@@ -15,13 +15,13 @@ const Footer = () => {
 					<Logo />
 
 					<div className="flex gap-2 justify-self-end">
-						<button className="bg-red hover:bg-red/90 transition-[background-color] duration-300 text-white text-3xl w-10 h-10 flex items-center justify-center rounded-md">
+						<button className="bg-red hover:bg-red/90 active:bg-red/80 transition-[background-color] duration-300 text-white text-3xl w-10 h-10 flex items-center justify-center rounded-md">
 							<BiLogoFacebook />
 						</button>
-						<button className="bg-red hover:bg-red/90 transition-[background-color] duration-300 text-white text-3xl w-10 h-10 flex items-center justify-center rounded-md">
+						<button className="bg-red hover:bg-red/90 active:bg-red/80 transition-[background-color] duration-300 text-white text-3xl w-10 h-10 flex items-center justify-center rounded-md">
 							<BiLogoTwitter />
 						</button>
-						<button className="bg-red hover:bg-red/90 transition-[background-color] duration-300 text-white text-3xl w-10 h-10 flex items-center justify-center rounded-md">
+						<button className="bg-red hover:bg-red/90 active:bg-red/80 transition-[background-color] duration-300 text-white text-3xl w-10 h-10 flex items-center justify-center rounded-md">
 							<FiInstagram />
 						</button>
 					</div>
