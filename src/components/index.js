@@ -10,3 +10,4 @@ export { default as MenuCard } from "./MenuCard/MenuCard";
 export { default as Heritage } from "./Heritage/Heritage";
 export { default as PrimaryFooter } from "./PrimaryFooter/PrimaryFooter";
 export { default as Accordian } from "./Accordian/Accordian";
+export { default as Copyright } from "./Copyright/Copyright";

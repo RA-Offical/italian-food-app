@@ -9,6 +9,7 @@ import { BiLogoFacebook } from "react-icons/bi";
 import { BiLogoTwitter } from "react-icons/bi";
 import { FiInstagram } from "react-icons/fi";
 import { FaChevronDown } from "react-icons/fa6";
+import { FaRegCopyright } from "react-icons/fa6";
 
 export {
 	BsDot,
@@ -22,4 +23,5 @@ export {
 	BiLogoTwitter,
 	FiInstagram,
 	FaChevronDown,
+	FaRegCopyright,
 };

@@ -1,6 +1,7 @@
 import React from "react";
-import { Accordian, Container, Logo } from "../";
+import { Accordian, Container, Copyright, Logo } from "../";
 import { BiLogoFacebook, BiLogoTwitter, FiInstagram } from "../../assets/icons";
+import { footerMenusData } from "../../data/footerMenusData";
 
 const Footer = () => {
 	return (
@@ -27,13 +28,20 @@ const Footer = () => {
 				</div>
 
 				{/* Accordian component */}
-				<Accordian clases={"grow py-3 lg:py-0"} />
-				{/* Accordian component */}
-				<Accordian clases={"grow py-3 lg:py-0"} />
-				{/* Accordian component */}
-				<Accordian clases={"grow py-3 lg:py-0"} />
-				{/* Accordian component */}
-				<Accordian clases={"grow py-4 md:py-0"} />
+				{footerMenusData.map(({ id, title, menus }) => {
+					return (
+						<Accordian
+							key={id}
+							clases={"grow py-3 lg:py-0"}
+							title={title}
+							menus={menus}
+						/>
+					);
+				})}
+			</Container>
+
+			<Container classes={"py-6"}>
+				<Copyright />
 			</Container>
 		</footer>
 	);
