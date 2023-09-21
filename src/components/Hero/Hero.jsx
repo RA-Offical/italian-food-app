@@ -32,23 +32,26 @@ const Hero = () => {
 
 				{/* images container */}
 
-				<div className="hidden lg:grid lg:grid-cols-[100px_100px_1fr] lg:grid-rows-[1fr_200px] lg:relative">
+				<div className="hidden lg:grid lg:grid-cols-[100px_100px_1fr] lg:grid-rows-[1fr_200px] lg:relative select-none">
 					<img
 						src={food_4}
 						alt="Mutton Karahi"
 						className="col-start-2 col-span-full max-w-[350px] w-full"
+						draggable={false}
 					/>
 
 					<img
 						src={food_5}
 						alt="Yogurt"
 						className="col-start-1 col-span-2"
+						draggable={false}
 					/>
 
 					<img
 						src={leave_2}
 						alt="leaves"
 						className="absolute -bottom-8 left-1/4"
+						draggable={false}
 					/>
 				</div>
 			</Container>
